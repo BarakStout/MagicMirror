@@ -17,7 +17,7 @@ Module.register("clock",{
 		clockBold: false,
 		showDate: true,
 		showWeek: false,
-		dateFormat: "dddd, LL",
+		dateFormat: "dddd,<br>LL",
 
 		/* specific to the analog clock */
 		analogSize: "200px",
@@ -81,8 +81,8 @@ Module.register("clock",{
 		var periodWrapper = document.createElement("span");
 		var weekWrapper = document.createElement("div");
 		// Style Wrappers
-		dateWrapper.className = "date normal medium";
-		timeWrapper.className = "time bright large light";
+		dateWrapper.className = "date normal largeish";
+		timeWrapper.className = "time bright larger light";
 		secondsWrapper.className = "dimmed";
 		weekWrapper.className = "week dimmed medium";
 

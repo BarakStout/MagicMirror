@@ -12,3 +12,13 @@
  body {
  	
  }
+
+ .larger {
+    font-size: 90px;
+    padding: 25px 0px;
+ }
+
+ .largeish {
+   font-size: 55px;
+   line-height: 65px;
+  }
